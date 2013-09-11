@@ -1,0 +1,187 @@
+@-moz-viewport{width: device-width; scale: 1;}
+@-ms-viewport{width: device-width; scale: 1;}
+@-o-viewport{width: device-width; scale: 1;}
+@-webkit-viewport{width: device-width; scale: 1;}
+@viewport{width: device-width; scale: 1;}
+
+body {
+	background-image: url(../images/dark-geometric.png);
+	background-repeat: repeat;
+	font: normal 100%/1.4 Helvetica, sans-serif;
+	text-align: center;
+}
+
+h1{
+	font-size: 26pt;
+	font-family: Georgia, serif;
+	padding-top: 0.5em;
+	margin:0;
+}
+header p{
+	font-size: 9.5pt;
+	margin: 0;
+	display: inline;
+}
+
+.designer {
+	color:#ff8b4a;
+	margin: 0;
+}
+.artist{
+	color: #72a168;
+	margin: 0;
+}
+
+.illustrator{
+	color: #a92f2d;
+	margin: 0;
+}
+
+.me{
+	display: none;
+}
+
+.bottom{
+	display:none;
+}
+
+article{
+	background-color: #fff;
+	border-radius: 0.2em;
+	box-shadow: 0px 3px 4px #999999;
+}
+.logo {
+	width: 100%;
+}
+
+.logo-list{
+	list-style-type:none;
+	padding: 0;
+	margin: 0;	
+}
+
+li{
+	display: inline;
+	padding:0;
+
+}
+
+.content{
+	font-size: 10pt;
+	text-align: center;
+	letter-spacing: 0.4pt;
+	padding-left: 0.7em;
+	padding-right: 0.7em;
+}
+
+p{
+	margin-top: 0;
+}
+.contact-list{
+	padding:0;
+
+}
+
+.email{
+	padding-right:1em;
+}
+
+.phone{
+	padding-right:0.7em;
+}
+
+footer{
+	background-color: #fff;
+	border-radius: 0.2em;
+	box-shadow: 0px 3px 6px #999999;
+}
+
+footer p {
+	padding: 0.5em;
+	font-size: 9pt;
+}
+
+@media only screen and (min-width: 25em) {
+
+h1{
+	font-size: 30pt;
+}
+
+header p{
+	font-size: 11pt;
+}
+
+}
+
+@media only screen and (min-width: 30em) {
+
+h1{
+	font-size: 30pt;
+}
+
+header p{
+	font-size: 11pt;
+	
+}
+.content{
+	font-size: 12pt;
+}
+}
+
+@media only screen and (min-width: 35em) {
+
+h1{
+	font-size: 35pt;
+}
+
+header p{
+	font-size: 12pt;
+	
+}
+
+figure{
+	max-width: 460px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+}
+
+@media only screen and (min-width: 60em) {
+
+header{
+	float:left;
+	margin-left: 10%;
+}
+h1{
+	font-size: 35pt;
+	display: block;
+}
+
+header p{
+	padding: 2pt;
+	display: inline-block;
+}
+
+figure{
+	margin: 0;
+	padding:0;
+}
+
+.logo{
+	display: none;
+}
+
+.me{
+	float:left;
+	display:inline;
+}
+
+.bottom{
+	display: inline;
+}
+	
+.content{
+	float:right;
+}
+}
