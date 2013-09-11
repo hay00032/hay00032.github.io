@@ -49,6 +49,7 @@ article{
 	background-color: #fff;
 	border-radius: 0.2em;
 	box-shadow: 0px 3px 4px #999999;
+	overflow: hidden;
 }
 .logo {
 	width: 100%;
@@ -147,12 +148,17 @@ figure{
 
 }
 
-/*@media only screen and (min-width: 60em) {
+@media only screen and (min-width: 60em) {
+
+.masthead {
+	float:left;
+	width: 450px;
+}
 
 header{
-	float:left;
-	margin-left: 10%;
+	margin-left: 20%;
 }
+
 h1{
 	font-size: 35pt;
 	display: block;
@@ -175,14 +181,20 @@ figure{
 .me{
 	float:left;
 	display:inline;
+	margin-top: 300px;
 }
 
 .bottom{
-	display: inline;
+	display:block;
+}
+
+.inner-content{
+	float:right;
+	max-width:35%;
+	margin-right: 2em;
+}
+footer{
+	margin-top: 1em;
 }
 	
-.content{
-	float:right;
 }
-}
-*/
