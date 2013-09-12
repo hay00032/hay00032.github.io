@@ -83,18 +83,24 @@ p{
 
 }
 
+. 
 .email{
-	padding-right:1em;
+	padding-right:0.3;
 }
 
 .phone{
-	padding-right:0.7em;
+	padding-right:0.2em;
+}
+
+.desktopOnly{
+	display:none;
 }
 
 footer{
 	background-color: #fff;
 	border-radius: 0.2em;
 	box-shadow: 0px 3px 6px #999999;
+	margin-top: 1em;
 }
 
 footer p {
@@ -209,6 +215,17 @@ figure{
 	float:right;
 	max-width:40%;
 	margin-right: 4em;
+}
+
+.mobilesOnly{
+	display: none;
+}
+
+.desktopOnly{
+	display: block;
+	padding-bottom: 0.5em;
+	font-size: 10pt;
+	color: #72a168;
 }
 footer{
 	margin-top: 1em;
