@@ -179,19 +179,36 @@ figure{
 }
 
 .me{
-	float:left;
-	display:inline;
+	margin:auto;
+	display:block;
 	margin-top: 300px;
 }
 
 .bottom{
 	display:block;
+	margin: auto;
 }
+
+.logo-list{
+	display: block; 
+	margin: auto;
+}
+
+
+.contact-list{
+	display: block;
+	margin: auto;
+}
+.content{
+	display: block;
+	margin: auto;
+}
+
 
 .inner-content{
 	float:right;
-	max-width:35%;
-	margin-right: 2em;
+	max-width:40%;
+	margin-right: 4em;
 }
 footer{
 	margin-top: 1em;
