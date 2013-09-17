@@ -5,10 +5,23 @@
 @viewport{width: device-width; scale: 1;}
 
 body {
-	background-image: url(../images/dark-geometric.png);
+	background-image: url(../img/dark-geometric.png);
 	background-repeat: repeat;
 	font: normal 100%/1.4 Helvetica, sans-serif;
 	text-align: center;
+}
+.nav{
+	background-color: #fff;
+	border-radius: 0.2em;
+	box-shadow: 0px 3px 6px #999999;
+	margin-bottom: 0.5;
+}
+
+.bio{
+	padding: 0.5em;
+	font-size: 11px;
+	letter-spacing: 1px;
+	text-align: right;
 }
 
 h1{
@@ -83,7 +96,6 @@ p{
 
 }
 
-. 
 .email{
 	padding-right:0.3;
 }
