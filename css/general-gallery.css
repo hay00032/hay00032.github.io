@@ -50,8 +50,15 @@ h2{
 	font-family: Georgia, serif;
 	letter-spacing: 4px;
 	margin: 0;
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	bottom: 0;
 }
 
+.title{
+	position: relative;
+}
 .banner{
 	width: 100%;
 	margin:0;
@@ -172,7 +179,7 @@ h1{
 }
 
 li{
-	display: inline;
+	display: inline-block;
 }
 
 .black-keys{
@@ -191,9 +198,7 @@ li{
 	max-width: 440px;
 }
 
-li p{
-	display: none;
-}
+
 
 footer{
 	margin-top: 1em;
