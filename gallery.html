@@ -1,19 +1,22 @@
 ---
-layout:default
+layout: default
 ---
 <h1>Gallery</h1>
-		<div class="title">
-			<figure>
-				<img src="img/background.png" alt="" class="banner">
-			</figure>
-		</div>
 
-<ul>
-		{% for gallery in site.pages %}
-			{% if gallery.category == "gallery" %}
-				<img src="img/{{gallery.thumb}}" alt="">
-				<strong><li>{{gallery.name}}</li></strong>
-			{% endif %}
-		{% endfor %}
+<ul class="images">
+	{% for gallery in site.pages %}
+		{% if gallery.category == "gallery" %}
+	<li class="bucket">
+		<img class="visual" src="img/{{gallery.image}}" alt="">
+		<dl>
+			<dt><strong>{{gallery.name}}</strong></dt>
+			<dt><em>{{gallery.media}}</em></dt>
+			<dt>{{gallery.date}}</dt>
+			<dt>{{gallery.programs}}</dt>
+			<dt>{{gallery.project}}</dt>
+		</dl>
+		{{gallery.content | markdownify}}
+	</li>
+		{% endif %}
+	{% endfor %}
 </ul>
-

@@ -13,16 +13,11 @@
 	<header>
 		<h1>jessica hay</h1>
 		<p class="designer">designer</p><p> · </p><p class="artist">artist</p><p> · </p><p class="illustrator">illustrator</p>
-		<nav>
-			<ul>
-				<li><a href="index.html">Bio</a></li>
-				<li><a href="gallery.html">Gallery</a></li>
-			</ul>
-		</nav>
+	{% include nav.html%}
 	</header>
-
+	<div class="wrapper">
 {{content}}
-
+	</div>
 		<ul class="logo-list">
 			<li><a href="https://www.facebook.com/jessica.hay.353" target="_blank"><img src="img/facebook.png"></a></li>
 			<li><a href="https://twitter.com/2Hayj"><img src="img/twitter.png" target="_blank"></a></li>
@@ -31,6 +26,7 @@
 			<li><a href="http://instagram.com/2hayj"><img src="img/instagram.png" target="_blank"></a></li>
 		</ul>
 	<footer>
+		{% include nav.html%}
 		<p>Copyright © 2013 | <a href="http://www.jessicahay.ca" >www.jessicahay.ca</a></p>
 	</footer>
 </body>

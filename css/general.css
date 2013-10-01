@@ -23,7 +23,7 @@ h1{
 	font-size: 26pt;
 	font-family: Georgia, serif;
 	padding-top: 0.5em;
-	margin:0;
+	margin: 0;
 }
 header p{
 	font-size: 9.5pt;
@@ -46,30 +46,63 @@ header p{
 }
 
 nav{
-	background-color: #fff;
-	border-radius: 0.5em;
-	box-shadow: 0px 3px 3px #999999;
 	margin-bottom: 0.5em;
+	padding: 0;
+	font-family: Helvetica;
+	font-size: 9pt;
+}
+
+ul{
+	padding: 0;
+	margin: 0;
+}
+
+.about{
+	float:left;
+	margin: 0;
+	padding: 1em;
+}
+
+.gallery{
+	float: right;
+	margin: 0;
+	padding: 1em;
+}
+
+.bucket{
+	margin: 0.5em;
+	font-size: 11pt;
+	display: block;
+}
+
+.images{
+	padding-top: 2em;
+}
+
+dl{
+	margin: 0;
+	padding-bottom: 0.5em;
+	display: block;
+	clear: both;
+}
+
+dt{
+	font-size: 9pt;
 }
 
 .wrapper{
 	background-color: #fff;
 	border-radius: 0.2em;
 	box-shadow: 0px 3px 4px #999999;
+	margin: 0;
 }
 
 figure{
-	width: 100%;
+	max-width: 400px;
 	margin:0;
 	padding:0;
-}
+	display: inline-block;
 
-.bottom{
-	display:none;
-}
-
-.logo {
-	width: 100%;
 }
 
 .logo-list{
@@ -78,10 +111,12 @@ figure{
 	margin: 0;
 }
 
-li{
-	display: inline;
-	padding:0;
+li img{
+	max-width: 400px;
+}
 
+img{
+	width:100%;
 }
 
 .content{
@@ -95,21 +130,10 @@ li{
 p{
 	margin-top: 0;
 }
-.contact-list{
+
+li{
+	display: inline-block;
 	padding:0;
-
-}
-
-.email{
-	padding-right:0.3;
-}
-
-.phone{
-	padding-right:0.2em;
-}
-
-.desktopOnly{
-	display:none;
 }
 
 footer{
@@ -124,15 +148,5 @@ footer p {
 	font-size: 9pt;
 }
 
-@media only screen and (min-width: 25em) {
-
-
-@media only screen and (min-width: 30em) {
-
-
-@media only screen and (min-width: 35em) {
-
-
-
-@media only screen and (min-width: 60em) {
-
+@media only screen and (min-width: 40em) {
+}
